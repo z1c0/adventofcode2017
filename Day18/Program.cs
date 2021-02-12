@@ -90,6 +90,7 @@ class Cpu
 		while (Pc >= 0 && Pc < instructions.Count)
 		{
 			var i = instructions[Pc];
+			Trace(Registers, i);
 			switch (i.op)
 			{
 				case OpCode.Set:
