@@ -10,15 +10,7 @@ using System.Text;
 Console.WriteLine("START");
 var sw = Stopwatch.StartNew();
 Part1();
-//
 Part2();
-// this probably runs "forever".
-// line line 3: "jnz a 2" -> line 5 is reached now
-//
-// line 25: "jnz g -13" always sends us back -> g is "always" != 0
-//
-// line 30: terminates -> jumps to end
-
 Console.WriteLine($"END (after {sw.Elapsed.TotalSeconds} seconds)");
 
 void Part1()
