@@ -8,9 +8,6 @@ using System.Text;
 
 // Day 21
 
-// too lo: 1398927
-// wrong:  2865353
-
 Console.WriteLine("START");
 var sw = Stopwatch.StartNew();
 Part1(5);
